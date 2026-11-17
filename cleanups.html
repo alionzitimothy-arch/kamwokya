@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Youth Clean-Ups Portal — Kamwokya Weyonje Hub</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <a href="index.html" class="logo">Kamwokya <span>Weyonje</span> Hub</a>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <label for="nav-toggle" class="hamburger" aria-label="Toggle Navigation">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+    <nav class="nav-menu">
+      <a href="index.html">Home</a>
+      <a href="report.html">Report Dump</a>
+      <a href="map.html">Hotspot Map</a>
+      <a href="directory.html">1,000 UGX Skips</a>
+      <a href="cleanups.html" class="active">Youth Clean-Ups</a>
+      <a href="dashboard.html">LC1 Dashboard</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+
+  <div class="page-header">
+    <h1>Youth Clean-Ups &amp; Volunteer Portal</h1>
+    <p>Join Kamwokya youth groups every Saturday morning to clear drainages, sort plastics, and sensitize neighbors.</p>
+  </div>
+
+  <section class="stats-bar">
+    <div class="container grid-3">
+      <div class="stat-box">
+        <h2>28 Drives</h2>
+        <p>Community Clean-Ups Completed in 2026</p>
+      </div>
+      <div class="stat-box">
+        <h2>18,500 kg</h2>
+        <p>Plastics Separated for Recycling</p>
+      </div>
+      <div class="stat-box">
+        <h2>Saturday 8:00 AM</h2>
+        <p>Next Meetup: Kamwokya Market Grounds</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="form-container">
+        <h2 style="margin-bottom: 1rem; color: var(--primary-dark);">Volunteer Sign-Up Form</h2>
+        <p style="margin-bottom: 1.5rem; color: var(--text-muted);">Register your interest below so LC1 coordinators can prepare gloves, spades, and collection sacks.</p>
+
+        <form action="index.html" method="get">
+          <div class="form-group">
+            <label for="vol-name">Full Name</label>
+            <input type="text" id="vol-name" name="volunteer_name" placeholder="e.g., Kato Brian" required>
+          </div>
+
+          <div class="form-group">
+            <label for="vol-phone">Phone / WhatsApp Number</label>
+            <input type="tel" id="vol-phone" name="volunteer_phone" placeholder="e.g., +256 770 123 456" required>
+          </div>
+
+          <div class="form-group">
+            <label>Select Your Areas of Interest:</label>
+            <div class="checkbox-group">
+              <label><input type="checkbox" name="interest" value="drainage"> Drainage Trench Clearing</label>
+              <label><input type="checkbox" name="interest" value="sorting"> Plastic &amp; Organic Waste Sorting</label>
+              <label><input type="checkbox" name="interest" value="sensitization"> Door-to-Door Community Sensitization</label>
+              <label><input type="checkbox" name="interest" value="logistics"> Wheelbarrow &amp; Skip Transfer Support</label>
+            </div>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Register as a Volunteer</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container footer-content">
+      <div>
+        <h3>Kamwokya Weyonje Hub</h3>
+        <p>Empowering Kamwokya residents, youth groups, and LC1 leaders for a flood-free, healthier Kampala.</p>
+      </div>
+      <div class="footer-links">
+        <a href="about.html">About "Weyonje"</a>
+        <a href="dashboard.html">LC1 Admin View</a>
+        <a href="directory.html">Emergency Contacts</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>Group Project 2 — Internet Technology &amp; Web Design (November–December 2026) | Victoria University</p>
+    </div>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hotspot Map Mockup — Kamwokya Weyonje Hub</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!--BALIYANJA GORDON & Queen Khalifan-->
+  <header>
+    <a href="index.html" class="logo">Kamwokya <span>Weyonje</span> Hub</a>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <label for="nav-toggle" class="hamburger" aria-label="Toggle Navigation">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+    <nav class="nav-menu">
+      <a href="index.html">Home</a>
+      <a href="report.html">Report Dump</a>
+      <a href="map.html" class="active">Hotspot Map</a>
+      <a href="directory.html">1,000 UGX Skips</a>
+      <a href="cleanups.html">Youth Clean-Ups</a>
+      <a href="dashboard.html">LC1 Dashboard</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+
+  <div class="page-header">
+    <h1>Kamwokya Dumping Hotspot <span>Map</span></h1>
+    <p>Visual layout of reported active dumpsites (Red) and cleared community zones (Green) across Kamwokya II Parish.</p>
+  </div>
+
+  <section class="section">
+    <div class="container">
+      <div class="map-legend">
+        <div class="legend-item">
+          <span class="dot dot-red"></span> Active Illegal Dump Site (Needs Cleanup)
+        </div>
+        <div class="legend-item">
+          <span class="dot dot-green"></span> Cleared &amp; Monitored Zone
+        </div>
+      </div>
+
+      <div class="map-wrapper">
+        <img src="images/map.png" alt="Simulated map layout of Kamwokya community zones" class="map-bg">
+
+        <span class="pin pin-red pin-1">Active: Behind Kamwokya Market</span>
+        <span class="pin pin-red pin-2">Active: Kisenyi II Trench</span>
+        <span class="pin pin-red pin-3">Active: Undeveloped Plot B</span>
+        <span class="pin pin-green pin-4">Cleared: Main Drainage Channel</span>
+        <span class="pin pin-green pin-5">Cleared: Church Area Lane</span>
+      </div>
+
+      <div class="grid-2" style="margin-top: 2.5rem;">
+        <div class="card">
+          <h3 style="color: var(--danger); margin-bottom: 0.5rem;">Priority Active Hotspots</h3>
+          <p><strong>Behind Kamwokya Market:</strong> Heavy accumulation of organic vendor waste and polythene bags blocking side drains.</p>
+          <p style="margin-top: 0.5rem;"><strong>Kisenyi II Trench:</strong> Nighttime domestic dumping causing localized flooding during rainstorms.</p>
+        </div>
+        <div class="card">
+          <h3 style="color: var(--primary); margin-bottom: 0.5rem;">Recently Cleared Zones</h3>
+          <p><strong>Main Drainage Channel:</strong> 18 tons of silt and plastic removed during the Saturday youth drive.</p>
+          <p style="margin-top: 0.5rem;"><strong>Church Area Lane:</strong> Residents transitioned to the nearby 1,000 UGX KCCA community skip.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container footer-content">
+      <div>
+        <h3>Kamwokya Weyonje Hub</h3>
+        <p>Empowering Kamwokya residents, youth groups, and LC1 leaders for a flood-free, healthier Kampala.</p>
+      </div>
+      <div class="footer-links">
+        <a href="about.html">About "Weyonje"</a>
+        <a href="dashboard.html">LC1 Admin View</a>
+        <a href="directory.html">Emergency Contacts</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>Group Project 2 — Internet Technology &amp; Web Design (November–December 2026) | Victoria University</p>
+    </div>
+  </footer>
+
+</body>
+</html>

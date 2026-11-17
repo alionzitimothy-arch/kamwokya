@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LC1 Leader Dashboard — Kamwokya Weyonje Hub</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <a href="index.html" class="logo">Kamwokya <span>Weyonje</span> Hub</a>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <label for="nav-toggle" class="hamburger" aria-label="Toggle Navigation">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+    <nav class="nav-menu">
+      <a href="index.html">Home</a>
+      <a href="report.html">Report Dump</a>
+      <a href="map.html">Hotspot Map</a>
+      <a href="directory.html">1,000 UGX Skips</a>
+      <a href="cleanups.html">Youth Clean-Ups</a>
+      <a href="dashboard.html" class="active">LC1 Dashboard</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+
+  <div class="page-header">
+    <h1>Kamwokya II LC1 Sanitation Dashboard</h1>
+    <p>Administrative tracking view for Mr. Frederick Mubiru (LC1 Chairperson) and zone sanitation secretaries.</p>
+  </div>
+
+  <section class="section">
+    <div class="container">
+      <div class="alert-banner">
+        <strong>Urgent Rainy Season Alert:</strong> 3 active dumpsites are currently obstructing drainage channels in Kisenyi II and Behind Kamwokya Market. Immediate youth mobilization recommended.
+      </div>
+
+      <div class="controls-bar">
+        <h2>Reported Dumping Incidents</h2>
+        <div class="btn-group">
+          <button type="button" class="btn btn-outline">Filter: All Reports (5)</button>
+          <button type="button" class="btn btn-outline">Sort by Zone</button>
+          <button type="button" class="btn btn-outline">Active Only (3)</button>
+        </div>
+      </div>
+
+      <div class="table-responsive">
+        <table>
+          <thead>
+            <tr>
+              <th>Report ID</th>
+              <th>Date Reported</th>
+              <th>Kamwokya Zone</th>
+              <th>Issue Description</th>
+              <th>Reported By</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>#KW-101</td>
+              <td>14 Nov 2026</td>
+              <td>Behind Kamwokya Market</td>
+              <td>Unbagged market refuse and polythene dumped along side drain</td>
+              <td>Anonymous</td>
+              <td><span class="status-badge status-active">Active Hotspot</span></td>
+            </tr>
+            <tr>
+              <td>#KW-102</td>
+              <td>15 Nov 2026</td>
+              <td>Kisenyi II Drainage</td>
+              <td>Sacks of domestic trash blocking culvert near footbridge</td>
+              <td>Grace Nakato</td>
+              <td><span class="status-badge status-active">Active Hotspot</span></td>
+            </tr>
+            <tr>
+              <td>#KW-103</td>
+              <td>15 Nov 2026</td>
+              <td>Undeveloped Plot B</td>
+              <td>Construction debris and broken timber dumped overnight</td>
+              <td>David Ssemakula</td>
+              <td><span class="status-badge status-pending">Crew Assigned</span></td>
+            </tr>
+            <tr>
+              <td>#KW-104</td>
+              <td>12 Nov 2026</td>
+              <td>Main Drainage Trench</td>
+              <td>Heavy plastic buildup cleared by 25 youth volunteers</td>
+              <td>LC1 Patrol</td>
+              <td><span class="status-badge status-cleared">Cleared</span></td>
+            </tr>
+            <tr>
+              <td>#KW-105</td>
+              <td>10 Nov 2026</td>
+              <td>Church Area Lane</td>
+              <td>Alleyway pile transferred to 1,000 UGX KCCA skip</td>
+              <td>Peter Mugisha</td>
+              <td><span class="status-badge status-cleared">Cleared</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container footer-content">
+      <div>
+        <h3>Kamwokya Weyonje Hub</h3>
+        <p>Empowering Kamwokya residents, youth groups, and LC1 leaders for a flood-free, healthier Kampala.</p>
+      </div>
+      <div class="footer-links">
+        <a href="about.html">About "Weyonje"</a>
+        <a href="dashboard.html">LC1 Admin View</a>
+        <a href="directory.html">Emergency Contacts</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>Group Project 2 — Internet Technology &amp; Web Design (November–December 2026) | Victoria University</p>
+    </div>
+  </footer>
+
+</body>
+</html>

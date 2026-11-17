@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Report Illegal Dumping — Kamwokya Weyonje Hub</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <a href="index.html" class="logo">Kamwokya <span>Weyonje</span> Hub</a>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <label for="nav-toggle" class="hamburger" aria-label="Toggle Navigation">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+    <nav class="nav-menu">
+      <a href="index.html">Home</a>
+      <a href="report.html" class="active">Report Dump</a>
+      <a href="map.html">Hotspot Map</a>
+      <a href="directory.html">1,000 UGX Skips</a>
+      <a href="cleanups.html">Youth Clean-Ups</a>
+      <a href="dashboard.html">LC1 Dashboard</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+
+  <div class="page-header">
+    <h1>Report an Illegal Dump Site</h1>
+    <p>Help Kamwokya II LC1 leaders and youth teams respond quickly to blocked drainages and unauthorized garbage piles.</p>
+  </div>
+
+  <section class="section">
+    <div class="container">
+      <div class="grid-3" style="margin-bottom: 3rem;">
+        <div class="card">
+          <div class="icon-circle">1</div>
+          <h3>Identify the Zone</h3>
+          <p>Choose the specific Kamwokya zone or landmark where the waste has been dumped.</p>
+        </div>
+        <div class="card">
+          <div class="icon-circle">2</div>
+          <h3>Describe &amp; Attach Photo</h3>
+          <p>Indicate whether the waste blocks a drainage trench and upload a clear photo.</p>
+        </div>
+        <div class="card">
+          <div class="icon-circle">3</div>
+          <h3>Submit to LC1 Team</h3>
+          <p>Your report is logged for youth volunteer mobilization and KCCA follow-up.</p>
+        </div>
+      </div>
+<!--alionzi timothy and muyingo Idris-->
+      <div class="form-container">
+        <h2 style="margin-bottom: 1.25rem; color: var(--primary-dark);">Dumpsite Report Form</h2>
+        <form action="dashboard.html" method="get">
+          <div class="form-group">
+            <label for="reporter-name">Your Name (or "Anonymous")</label>
+            <input type="text" id="reporter-name" name="reporter_name" placeholder="e.g., Sarah Namukasa" required>
+          </div>
+
+          <div class="form-group">
+            <label for="zone-select">Select Kamwokya Zone</label>
+            <select id="zone-select" name="kamwokya_zone" required>
+              <option value="">-- Choose a Zone --</option>
+              <option value="market-rear">Behind Kamwokya Market</option>
+              <option value="church-area">Church Area Zone</option>
+              <option value="kisenyi-II">Kisenyi II Drainage Corridor</option>
+              <option value="central-zone">Kamwokya Central Zone</option>
+              <option value="green-valley">Green Valley / Undeveloped Plots</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="waste-description">Description of Waste &amp; Exact Landmark</label>
+            <textarea id="waste-description" name="waste_description" rows="4" placeholder="Describe the type of garbage, proximity to drainage channels, or nearby shops..." required></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="dump-photo">Upload Photo Evidence (Optional)</label>
+            <input type="file" id="dump-photo" name="dump_photo" accept="image/*">
+          </div>
+
+          <button type="submit" class="btn btn-primary">Submit Dumping Report</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container footer-content">
+      <div>
+        <h3>Kamwokya Weyonje Hub</h3>
+        <p>Empowering Kamwokya residents, youth groups, and LC1 leaders for a flood-free, healthier Kampala.</p>
+      </div>
+      <div class="footer-links">
+        <a href="about.html">About "Weyonje"</a>
+        <a href="dashboard.html">LC1 Admin View</a>
+        <a href="directory.html">Emergency Contacts</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>Group Project 2 — Internet Technology &amp; Web Design (November–December 2026) | Victoria University</p>
+    </div>
+  </footer>
+
+</body>
+</html>
